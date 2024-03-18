@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.588);
+}
+
+.carousel-item img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    left: 10%;
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    right: 10%;
+}
+
+.row {
+    margin: 0;
+}
+
+.marketing {
+    text-align: center;
+}
+
+.marketing h2{
+    font-size: 3rem;
+    margin-bottom: 7rem;
+    margin-top: 2rem;
+}
+
+.float-right {
+    float: right;
+}
